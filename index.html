@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>The Matrix users</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/login.css">
+
+    <style type="text/css" media="screen">
+        .s-styles {
+            padding-top: 18rem;
+            padding-bottom: 15rem;
+        }
+    </style>
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+
+
+<body id="top">
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="dots-jump">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+
+        <div class="header-logo">
+            <a class="site-logo" href="index.html">
+                <img src="images/matrix.png" alt="Homepage">
+            </a>
+        </div> <!-- end header-logo -->
+
+    </header> <!-- end s-header -->
+
+
+    <!-- home
+    ================================================== -->
+    <section id="home" class="s-home page-hero target-section" data-parallax="scroll"
+        data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+
+        <div class="grid-overlay">
+            <div></div>
+        </div>
+
+        <div class="home-content">
+
+            <div class="row home-content__main">
+
+                <h1 style="font-size: 60px;">
+                    Unlimited movies, TV shows, and More.
+                </h1>
+
+                <h2>
+                    Watch anywhere. Cancel anytime
+                </h2>
+
+                <h3>
+                    Ready to watch? Subscribe Now to create or renew your membership.
+                </h3>
+
+                <div class="home-content__video">
+                    <a class="video-link"
+                        href="https://player.vimeo.com/video/117310401?color=01aef0&title=0&byline=0&portrait=0"
+                        data-lity>
+                        <span class="video-icon"></span>
+                        <span class="video-text">Trending Now</span>
+                    </a>
+                </div>
+
+                <div class="home-content__button">
+                    <a href="#Startmembership" class="smoothscroll btn btn--primary btn--large">
+                        Get Started
+                    </a>
+
+                    <button onclick="document.getElementById('logpopup').style.display='block'"
+                        class="smoothscroll btn btn--large">Sign In
+                    </button>
+
+                    <!--pop up login start-->
+                    <div id="logpopup" class="modal">
+                        <form class="modal-content animate" action="home.html">
+                            <div class="imgcontainer">
+                                <span onclick="document.getElementById('logpopup').style.display='none'" class="close"
+                                    title="Close Modal">&times;</span>
+                                <img src="images/demop.png" alt="Avatar" class="avatar"
+                                    style="width: 10%; height: 10%; padding-top: 20px;">
+                                <h6 style="margin-top: 0px;">Sign in</h6>
+                            </div>
+
+                            <div class="container">
+                                <label for="username"><b>Username</b></label>
+                                <input type="text" placeholder="Enter Username" name="username" required
+                                    style="color:#ffff">
+
+                                <label for="password"><b>Password</b></label>
+                                <input type="password" placeholder="Enter Password" name="password" required>
+
+                                <label>
+                                    <input type="checkbox" checked="checked" name="remember" style="margin-right: 7px;">
+                                    Remember me
+                                </label>
+
+
+                                <button><a type="button" href="home.html" style="color:#ffff">Sign In</a></button>
+
+
+
+                            </div>
+
+                            <span class="psw">Forgot <a href="#">password?</a></span>
+
+                            <div class="container" style="background-color:#f1f1f134">
+                                <button type="button" onclick="document.getElementById('logpopup').style.display='none'"
+                                    class="cancelbtn" style="display: flex;">Cancel</button>
+
+                            </div>
+
+                        </form>
+                    </div>
+
+                    <!--pop up login end-->
+
+                </div>
+
+            </div> <!-- end home-content__main -->
+
+            <div class="home-content__scroll">
+                <a href="#styles" class="scroll-link smoothscroll">
+                    Scroll
+                </a>
+            </div>
+
+        </div> <!-- end home-content -->
+
+        <ul class="home-social">
+            <li>
+                <a href="#0"><i class="fab fa-facebook-f" aria-hidden="true"></i><span>Facebook</span></a>
+            </li>
+            <li>
+                <a href="#0"><i class="fab fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
+            </li>
+            <li>
+                <a href="#0"><i class="fab fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
+            </li>
+
+        </ul> <!-- end home-social -->
+
+    </section> <!-- end s-home -->
+
+
+    <!-- styles
+    ================================================== -->
+
+
+
+    <section id="styles" class="s-styles">
+
+
+        <div class="row half-bottom">
+
+            <div class="col-six tab-full">
+
+                <h3>Black Adam</h3>
+
+                <p><a href="#"><img width="120" height="120" class="pull-left" alt="sample-image"
+                            src="images/BlackAdam.jpg"></a>
+                    To do both characters of Shazam and Black Adam justice, they needed their own separate films with
+                    separate tones. We finally have that Black Adam movie, which is just as brutal and action packed as
+                    the Rock has always promised. ... I had a blast. </p>
+
+            </div>
+
+            <div class="col-six tab-full">
+
+                <h3>Black Adam Trailer</h3>
+
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/X0tOpBuYasI"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+
+            </div>
+
+        </div> <!-- end row -->
+
+
+        <div class="row half-bottom">
+
+            <div class="col-six tab-full">
+
+                <h3>Fast Five</h3>
+
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/mw2AqdB5EVA"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+
+            </div>
+
+
+
+
+            <div class="row">
+
+                <div class="col-six tab-full">
+
+                    <h3>Fast Five Trailer</h3>
+
+                    <aside class="pull-quote">
+                        <blockquote>
+                            <p>This is the third of the "Fast and the Furious" series starring Vin Diesel, Paul Walker
+                                and Jordana Brewster, and here they're joined by Dwayne Johnson, making it a sort of
+                                convention of reckless drivers. Apparently some of these characters have had, in the
+                                past, long conversations about their goals, dreams, abilities and values, saving time at
+                                the present for terse verbal shorthand. When you hear as many as six words in a row, you
+                                suspect it's a tagline for a trailer ("We need to assemble a team")</p>
+                        </blockquote>
+                    </aside>
+
+                </div><!-- end row -->
+
+
+
+                <div class="row add-bottom">
+
+                    <div class="col-twelve">
+
+                        <h3>Step 1</h3>
+                        <h4>Choose the plan that's just right for you</h4>
+                        <ol>
+                            <li>Watch all you want. With no Ads.</li>
+                            <li>Recommendations just for you</li>
+                            <li>Change or cancel your subscription anytime.</li>
+                        </ol>
+
+
+                        <div class="table-responsive">
+
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th></th>
+                                        <th>Mobile</th>
+                                        <th>Basic</th>
+                                        <th>Standard</th>
+                                        <th>Premium</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Monthly price</td>
+                                        <td>R49.00</td>
+                                        <td>R99.00</td>
+                                        <td>R159.00</td>
+                                        <td>R199.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Video quality</td>
+                                        <td>Good</td>
+                                        <td>Good</td>
+                                        <td>Better</td>
+                                        <td>Best</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Resolution</td>
+                                        <td>480p</td>
+                                        <td>720p</td>
+                                        <td>1080p</td>
+                                        <td>4K + HDR</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                        </div>
+
+                    </div>
+
+                </div> <!-- end row -->
+
+    </section>
+
+    <section id="Startmembership">
+
+
+
+        <div class="row">
+
+            <h3>Step 2</h3>
+            <div class="col-six tab-full">
+
+                <h3>Personal Infomation</h3>
+
+                <form>
+                    <div>
+                        <label for="sampleInput">First name</label>
+                        <input class="full-width" type="text" placeholder="First name" id="sampleInput">
+                    </div>
+                    <div>
+                        <label for="sampleInput">Last name</label>
+                        <input class="full-width" type="text" placeholder="Last name" id="sampleInput">
+                    </div>
+                    <div>
+                        <label for="sampleInput">Email</label>
+                        <input class="full-width" type="email" placeholder="Johnwick@matrix.com" id="sampleInput">
+                    </div>
+                    <div>
+                        <label for="sampleRecipientInput">Choose your country</label>
+                        <div class="ss-custom-select">
+                            <select class="full-width" id="sampleRecipientInput">
+                                <option value="Option 1">South Africa</option>
+                                <option value="Option 2">Zimbabwe</option>
+                                <option value="Option 3">Mozambique</option>
+                                <option value="Option 3">Botswana</option>
+                            </select>
+                        </div>
+                    </div>
+
+                </form>
+
+            </div>
+
+            <div class="col-six tab-full">
+
+                <h3>Set up your Credit or Debit card</h3>
+
+                <form>
+                    <div>
+                        <label for="sampleInput">Card number</label>
+                        <input class="full-width" type="text" placeholder="card number" id="sampleInput">
+                    </div>
+                    <div>
+                        <label for="sampleInput">Expiration date</label>
+                        <input class="full-width" type="date" placeholder="Expiration date" id="sampleInput">
+                    </div>
+                    <div>
+                        <label for="sampleInput">CVV</label>
+                        <input class="full-width" type="text" placeholder="Card Verification Value" id="sampleInput">
+                    </div>
+
+                    <label class="add-bottom">
+                        <input type="checkbox">
+                        <span class="label-text">Remember me!</span>
+                    </label>
+
+
+                    <a class="btn btn--primary full-width" href="home.html">Start membership</a>
+
+
+                </form>
+
+            </div> <!-- end row -->
+
+    </section> <!-- end styles -->
+
+
+    <!-- contact
+    ================================================== -->
+    <section id="contact" class="s-contact target-section">
+
+        <div class="grid-overlay">
+            <div></div>
+        </div>
+
+        <div class="row section-header narrow" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead">Keep In Touch</h3>
+                <h1 class="display-1">Feel free to contact us for any <br> difficulties and issues</h1>
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row contact-main" data-aos="fade-up">
+            <div class="col-full">
+                <p class="contact-email">
+                    <a href="mailto:#0">movies@matrix.com</a>
+                </p>
+                <p class="contact-address">
+                    Braamfontein, Johannesburg <br>
+                    Gauteng, SA
+                </p>
+                <p class="contact-numbers">
+                    +270 082 4256 &nbsp; +272 382 4256
+                </p>
+
+                <ul class="contact-social">
+                    <li>
+                        <a href="#0"><i class="fab fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="#0"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="#0"><i class="fab fa-instagram"></i></a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+    </section> <!-- end s-contact -->
+
+
+    <!-- footer
+    ================================================== -->
+    <footer>
+        <div class="row">
+            <div class="col-full ss-copyright">
+                <span>© Copyright Matrix 2023</span>
+                <span>Design by <a href="#">The Matrix</a></span>
+            </div>
+        </div>
+
+        <div class="ss-go-top">
+            <a class="smoothscroll" title="Back to Top" href="#top">Back to Top</a>
+        </div>
+    </footer>
+
+
+    <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close"
+                        title="Close (Esc)"></button>
+                    <button class="pswp__button pswp__button--share" title="Share"></button>
+                    <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                    <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div>
+                <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+                <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div> <!-- end photoSwipe background -->
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <!--Pop up script start-->
+    <script>
+        // Get the modal
+        var modal = document.getElementById('logpopup');
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script><!--Pop up script end-->
+
+</body>
